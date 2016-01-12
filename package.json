@@ -1,0 +1,22 @@
+{
+  "name": "spatial-ui",
+  "version": "1.0.0",
+  "description": "Sketches for a spatial user interface",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sketches",
+    "spatial",
+    "sui"
+  ],
+  "author": "Benjamin Vedel Ottensten",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.11.0",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.1.1",
+    "gulp-sourcemaps": "^1.6.0"
+  }
+}
