@@ -83,21 +83,28 @@ h1, h2, h3, h4, h5, h6, p, li {
  * Current orientation values
  */
 
-.orientation-info {
+.orientation-wrap {
   position: absolute;
   bottom: 0;
   width: 100%;
-  padding: .5em 0;
-  text-align: center;
-  background: #eee;
-  border-top: 1px solid #ddd;
+  padding: 2em;
 }
-.orientation-info div {
-  width: 33.333%;
-  float: left;
-  text-transform: uppercase;
+.orientation-wrap-inner {
+  padding: .5em 0;
+  background: #eee;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+
+  box-shadow: 0 0 5px #ddd;
 }
 .orientation-parameter {
+  width: 33.333%;
+  float: left;
+  text-align: center;
+  text-transform: uppercase;
+}
+.orientation-title {
   margin-bottom: .5em;
 }
 .orientation-value {
