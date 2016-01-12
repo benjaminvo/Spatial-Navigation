@@ -3,6 +3,13 @@
    ========================================================================== */
 
 html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
@@ -64,19 +71,38 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*
+ * Typography
+ */
 
+h1, h2, h3, h4, h5, h6, p, li {
+  margin: 0 0 1em;
+}
 
+/*
+ * Current orientation values
+ */
 
-
-
-
-
-
-
-
-
-
-
+.orientation-info {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: .5em 0;
+  text-align: center;
+  background: #eee;
+  border-top: 1px solid #ddd;
+}
+.orientation-info div {
+  width: 33.333%;
+  float: left;
+  text-transform: uppercase;
+}
+.orientation-parameter {
+  margin-bottom: .5em;
+}
+.orientation-value {
+  font-size: 1.5em;
+}
 
 
 

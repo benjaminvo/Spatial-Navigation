@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Spatial UI</title>
+        <title>Spatial Navigation</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -11,7 +11,21 @@
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-        <p>Make Spatial UI here</p>
+
+        <div class="orientation-info">
+            <div>
+                <h6 class="orientation-parameter">Alpha</h5>
+                <span class="orientation-value" id="alpha">n/a</span> <!-- 0 to 360 -->
+            </div>
+            <div>
+                <h6 class="orientation-parameter">Beta</h5>
+                <span class="orientation-value" id="beta">n/a</span> <!-- -180 to 180 -->
+            </div>
+            <div>
+                <h6 class="orientation-parameter">Gamma</h5>
+                <span class="orientation-value" id="gamma">n/a</span> <!-- -90 to 90 -->
+            </div>
+        </div>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
